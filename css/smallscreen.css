@@ -1,0 +1,307 @@
+@media only screen and (max-width: 600px) {
+  header {
+    height: 850px;
+  }
+
+  menu {
+    max-width: 100%;
+    padding: 20px 15px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .head-logo {
+    max-width: 140px;
+    height: auto;
+  }
+
+  /* Mobile menu styling */
+
+  .mobile-nav-area {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+    width: 55px;
+    height: auto;
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #6663e9;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .menu:hover {
+    background-color: #6663e9;
+  }
+
+  /* Hero area styling */
+
+  #hero {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .hero-content {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .hero-heading br {
+    display: none;
+  }
+
+  .hero-heading {
+    font-size: 55px;
+  }
+
+  .hero-txt br {
+    display: none;
+  }
+
+  /* Brands logo styling */
+
+  .brands-logo {
+    max-width: 90%;
+    margin-top: -100px;
+  }
+
+  .brands-logo-main {
+    max-width: 90%;
+    flex-wrap: wrap;
+    padding: 50px 15px;
+    gap: 50px;
+  }
+
+  .brandslogo-box {
+    max-width: 40%;
+    margin: 0 auto;
+  }
+
+  .brands5 {
+    display: none;
+  }
+
+  .brands-items-logo {
+    max-width: 100%;
+  }
+
+  /* Modern estates styling */
+
+  .estates-main {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .estate-items-area {
+    padding: 60px 0;
+  }
+
+  .primary-black-heading {
+    font-size: 45px;
+  }
+
+  .estate-items-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    padding: 0 10px 50px 10px;
+  }
+
+  .estates-items {
+    width: 100%;
+  }
+
+  .estates-items-name {
+    font-size: 24px;
+  }
+
+  .estates-items-price {
+    font-size: 21px;
+  }
+
+  .estates-items-btn {
+    padding: 13px 30px;
+  }
+
+  .estates-items2 {
+    margin-bottom: 0;
+  }
+
+  .estates-items3 {
+    margin-bottom: 0;
+  }
+
+  .estates-items4 {
+    margin-bottom: 0;
+  }
+
+  .estates-items5 {
+    margin-bottom: 0;
+  }
+
+  .estates-items6 {
+    margin-bottom: 0;
+  }
+
+  .estates-items7 {
+    margin-bottom: 0;
+  }
+
+  .estates-items8 {
+    margin-bottom: 0;
+  }
+
+  .estates-items9 {
+    margin-bottom: 0;
+  }
+
+  .estates-items-img {
+    max-width: 100%;
+    height: 350px;
+  }
+
+  .row2 {
+    margin: 0;
+  }
+
+  /* Modern area styling */
+
+  #modern {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .modern-main {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+
+  .modern-left {
+    flex-basis: 100%;
+    height: 600px;
+    background-image: url(/assets/Icons/featureImageBg1.svg);
+    padding: 0 0 50px 65px;
+  }
+
+  .modern-img {
+    width: 90%;
+    height: 300px;
+    border-radius: 35px;
+    margin-top: -65px;
+  }
+
+  .modern-right {
+    flex-basis: 100%;
+    padding: 20px 15px;
+    text-align: center;
+  }
+
+  .modern-heading {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .modern-txt {
+    margin: 20px 0 30px 0;
+  }
+
+  .modern2-right {
+    flex-basis: 100%;
+    height: 600px;
+    background-image: url(/assets/Icons/featureImageBg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0;
+    margin: 70px 0 20px 0;
+    order: 1;
+  }
+
+  .modern2-left {
+    flex-basis: 100%;
+    padding: 0px 15px 125px 15px;
+    text-align: center;
+    order: 2;
+  }
+
+  .modern-img2 {
+    margin-left: -32px;
+  }
+
+  /* CTA styling */
+
+  .cta-main {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 50px 25px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .cta-heading {
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  .subscribe-form {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .email-input {
+    width: 100%;
+    padding: 18px 0 18px 70px;
+    margin-left: -50px;
+    margin-right: -20px;
+  }
+
+  .email-input::placeholder {
+    color: #9695e2;
+    font-size: 17px;
+  }
+
+  .email-input:focus {
+    outline: none;
+  }
+
+  .subscribe {
+    margin: 30px 0 0 0;
+  }
+
+  /* Footer area styling   */
+
+  #footer-main {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 30px 15px 80px 15px;
+  }
+
+  .footer-col1 {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-logo {
+    margin: 0 auto 30px auto;
+  }
+
+  .social {
+    margin: 0 10px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
